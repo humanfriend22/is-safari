@@ -1,0 +1,24 @@
+{
+  "name": "@humanfriend22/is-safari",
+  "version": "1.0.0-rc",
+  "type": "module",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humanfriend22/is-safari.git"
+  },
+  "author": "humanfriend22 <humanfriend22@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/humanfriend22/is-safari/issues"
+  },
+  "homepage": "https://github.com/humanfriend22/is-safari#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.28.1"
+  }
+}
