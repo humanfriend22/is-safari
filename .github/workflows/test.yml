@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: 16
 
+      - name: Install Dependecies
+        run: npm ci
+
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
