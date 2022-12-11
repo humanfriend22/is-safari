@@ -1,12 +1,13 @@
 {
   "name": "@humanfriend22/is-safari",
-  "version": "1.0.0-rc",
+  "version": "1.0.0",
   "type": "module",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
