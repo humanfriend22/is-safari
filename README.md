@@ -1,8 +1,6 @@
 # Is Safari?
 
-A whole dedicated package to checking if the browser is running Safari (webkit). :)
-
-If it really seems like it would useful, I can publish similar packages for other browsers or a small set of functions in one package.
+A dedicated package to check if the browser is running Safari (webkit) via the [user agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/User-Agent).
 
 # Installation
 
@@ -17,3 +15,6 @@ import isSafari from '@humanfriend22/is-safari';
 // Boolean
 const browserIsSafari = isSafari();
 ```
+
+> Tested by Playwright
+
